@@ -182,3 +182,217 @@ header {
 
 
 /*? END  First-Section!!*/
+
+
+/*! START  Second-section! */
+
+.second-section {
+    position: absolute;
+    width: 1920px;
+    height: 854px;
+    top: 1034px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.default-container-2 {
+    position: absolute;
+    width: 1224px;
+    height: 714px;
+}
+
+.default-container-2 .default-title {
+    position: absolute;
+    width: 1225px;
+    height: 128px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.default-title h2 {
+    width: 700px;
+    font-size: 48px;
+    background: linear-gradient(180deg, #F6F6F7 0%, #7E808F 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.default-title p {
+    position: relative;
+    top: 25px;
+    width: 400px;
+    height: 128px;
+    font-size: 20px;
+    color: white;
+    opacity: 0.5;
+}
+
+.default-container-2 .inner-container {
+    position: absolute;
+    width: 1227px;
+    height: 526px;
+    top: 188px;
+    display: flex;
+    flex-flow: column;
+    gap: 24px;
+}
+
+
+/*?START FLEXBOX-CARD*/
+
+.default-container-2 .inner-flexbox-1 {
+    width: 1227px;
+    height: 251px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.default-container-2 .inner-flexbox-2 {
+    width: 1227px;
+    height: 251px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-1 {
+    width: 393px;
+    height: 251px;
+    border: 1px solid #333039;
+    background: #0E1330;
+}
+
+.card-2 {
+    width: 393px;
+    height: 251px;
+    background: #0E1330;
+    border: 1px solid #333039;
+}
+
+.card-3 {
+    width: 393px;
+    height: 251px;
+    background: #0E1330;
+    border: 1px solid #333039;
+}
+
+.inner-flexbox-1 .card-1 .card-image {
+    width: 53.05px;
+    height: 45px;
+    background: url(pic/flexbox1.png);
+    position: relative;
+    top: 25px;
+    left: 35px;
+}
+
+.inner-flexbox-1 .card-1 .card-content {
+    width: 323px;
+    height: 116px;
+    position: relative;
+    top: 40px;
+    left: 35px;
+}
+
+.card-content h6 {
+    color: White;
+    font-size: 25px;
+    line-height: 54px;
+}
+
+.card-content p {
+    color: white;
+    font-size: 18px;
+    opacity: 0.5;
+}
+
+.inner-flexbox-1 .card-2 .card-image {
+    width: 47.94px;
+    height: 45px;
+    background: url(pic/flexbox2.png);
+    position: relative;
+    top: 25px;
+    left: 35px;
+}
+
+.inner-flexbox-1 .card-2 .card-content {
+    width: 323px;
+    height: 116px;
+    position: relative;
+    top: 40px;
+    left: 35px;
+}
+
+.inner-flexbox-1 .card-3 .card-image {
+    width: 45px;
+    height: 45px;
+    background: url(pic/flexbox.png);
+    position: relative;
+    top: 25px;
+    left: 35px;
+}
+
+.inner-flexbox-1 .card-3 .card-content {
+    width: 323px;
+    height: 116px;
+    position: relative;
+    top: 40px;
+    left: 35px;
+}
+
+.inner-flexbox-2 .card-1 .card-image {
+    width: 34.29px;
+    height: 45px;
+    background: url(pic/flex1.png);
+    position: relative;
+    top: 25px;
+    left: 35px;
+}
+
+.inner-flexbox-2 .card-1 .card-content {
+    width: 323px;
+    height: 116px;
+    position: relative;
+    top: 40px;
+    left: 35px;
+}
+
+.inner-flexbox-2 .card-2 .card-image {
+    width: 45px;
+    height: 45px;
+    background: url(pic/flex2.png);
+    position: relative;
+    top: 25px;
+    left: 35px;
+}
+
+.inner-flexbox-2 .card-2 .card-content {
+    width: 323px;
+    height: 116px;
+    position: relative;
+    top: 40px;
+    left: 35px;
+}
+
+.inner-flexbox-2 .card-3 .card-image {
+    width: 47.26px;
+    height: 45px;
+    background: url(pic/flex3.png);
+    position: relative;
+    top: 25px;
+    left: 35px;
+}
+
+.inner-flexbox-2 .card-3 .card-content {
+    width: 323px;
+    height: 116px;
+    position: relative;
+    top: 40px;
+    left: 35px;
+}
+
+
+/*?START FLEXBOX-CARD*/
+
+
+/*! END  Second-section!!!! */
