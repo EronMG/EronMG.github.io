@@ -13,10 +13,11 @@ body {
 a {
     text-decoration: none;
     color: White;
+    font-family: 'Roboto', sans-serif;
 }
 
 
-/*!Header*/
+/*! START  Header*/
 
 header {
     position: absolute;
@@ -71,3 +72,113 @@ header {
     color: White;
     font-size: 16px;
 }
+
+
+/*! END  Header*/
+
+
+/*? START  First-Section!!*/
+
+.first-section {
+    position: absolute;
+    width: 100%;
+    top: 101px;
+    height: 933px;
+    background: rgb(6, 11, 39);
+    background: linear-gradient(0deg, rgba(6, 11, 39, 1) 0%, rgba(14, 21, 59, 1) 68%, rgba(6, 11, 39, 1) 97%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.first-section .default-container-1 {
+    position: absolute;
+    width: 1224px;
+    height: 793px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.default-container-1 .inner-container {
+    width: 1145px;
+    height: 793px;
+}
+
+.default-container-1 .inner-content {
+    width: 1145px;
+    height: 230px;
+    position: absolute;
+}
+
+.default-container-1 .title {
+    width: 1145px;
+    height: 154px;
+    position: absolute;
+    display: flex;
+}
+
+.default-container-1 .title h1 {
+    position: absolute;
+    font-size: 55px;
+    left: 45px;
+    background: linear-gradient(180deg, #F6F6F7 0%, #7E808F 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Inter', sans-serif;
+}
+
+.default-container-1 .title p {
+    position: absolute;
+    font-size: 20px;
+    top: 102px;
+    text-align: center;
+    width: 799px;
+    height: 52px;
+    left: 173px;
+    color: #fff;
+    opacity: 0.5;
+    font-family: 'Roboto', sans-serif;
+}
+
+.default-container-1 .inner-buttons {
+    position: absolute;
+    top: 184px;
+    left: 420px;
+    display: flex;
+    gap: 35px;
+}
+
+.default-container-1 .inner-button-1 {
+    position: relative;
+    width: 125px;
+    height: 45px;
+    border-radius: 35px;
+    background: #7214FF;
+    border: 0;
+    color: White;
+    font-size: 16px;
+}
+
+.default-container-1 .inner-button-2 {
+    position: relative;
+    width: 125px;
+    height: 45px;
+    border-radius: 35px;
+    background: none;
+    border: 1px solid #333039;
+    color: White;
+    font-size: 16px;
+}
+
+.default-container-1 .inner-image {
+    position: absolute;
+    left: 215px;
+    top: 280px;
+    width: 808px;
+    height: 513px;
+    background: url(pic/Hero\ image.png);
+}
+
+
+/*? END  First-Section!!*/
