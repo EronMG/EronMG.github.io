@@ -396,3 +396,186 @@ header {
 
 
 /*! END  Second-section!!!! */
+
+.third-section {
+    position: absolute;
+    width: 1920px;
+    height: 1575px;
+    top: 1888px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.default-container-3 {
+    position: absolute;
+    width: 1224px;
+    height: 1435px;
+}
+
+.default-container-3 .title {
+    position: absolute;
+    width: 901.73px;
+    height: 140px;
+    left: 161.13px;
+}
+
+.default-container-3 h2 {
+    position: absolute;
+    background: linear-gradient(180deg, #F6F6F7 0%, #7E808F 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Inter', sans-serif;
+    font-size: 42px;
+    left: 100px;
+}
+
+.default-container-3 .title-span {
+    position: absolute;
+    top: 84px;
+    width: 901.73px;
+    height: 56px;
+    display: flex;
+    gap: 30px;
+}
+
+.default-container-3 .email {
+    width: 182.67px;
+    height: 56px;
+    display: flex;
+    align-items: center;
+}
+
+.default-container-3 .events {
+    width: 194.28px;
+    height: 56px;
+    display: flex;
+    align-items: center;
+}
+
+.default-container-3 .files {
+    width: 156.94px;
+    height: 56px;
+    display: flex;
+    align-items: center;
+}
+
+.default-container-3 .documents {
+    width: 277.85px;
+    height: 56px;
+    display: flex;
+    align-items: center;
+}
+
+.default-container-3 .email-image {
+    width: 42.67px;
+    height: 30px;
+    background: url(pic/email.png);
+}
+
+.default-container-3 .events-image {
+    width: 31.28px;
+    height: 30px;
+    background: url(pic/star.png);
+}
+
+.default-container-3 .files-image {
+    width: 37.94px;
+    height: 30px;
+    background: url(pic/files.png);
+}
+
+.default-container-3 .documents-image {
+    width: 22.85px;
+    height: 30px;
+    background: url(pic/spisok.png);
+}
+
+.default-container-3 .title-span h3 {
+    background: linear-gradient(180deg, #F6F6F7 0%, #7E808F 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Inter', sans-serif;
+    font-size: 32px;
+    position: relative;
+    left: 10px;
+}
+
+.default-container-3 .card-list {
+    position: absolute;
+    width: 1224px;
+    height: 1129px;
+    top: 200px;
+    display: flex;
+    flex-flow: wrap;
+    gap: 30px;
+}
+
+.default-container-3 .card {
+    background: rgb(6, 11, 39);
+    background: radial-gradient(circle, rgba(6, 11, 39, 1) 0%, rgba(21, 5, 77, 1) 100%);
+    width: 1224px;
+    height: 513px;
+    border: 1px solid #333039;
+    border-radius: 15px;
+}
+
+.default-container-3 .card .card-content {
+    position: relative;
+    width: 465px;
+    height: 248px;
+    top: 132.50px;
+    left: 70px;
+}
+
+.default-container-3 .card .card-content h5 {
+    color: white;
+    font-size: 32px;
+}
+
+.default-container-3 .card .card-content p {
+    position: relative;
+    top: 10px;
+    color: white;
+    font-size: 16px;
+    opacity: 0.5;
+}
+
+.default-container-3 .card-list-button {
+    width: 133px;
+    height: 46px;
+    border-radius: 50px;
+    position: relative;
+    background: none;
+    border: 1px solid #333039;
+    color: White;
+    font-size: 16px;
+    top: 40px;
+}
+
+.default-container-3 .card .card-image {
+    width: 515px;
+    height: 373px;
+    background: url(pic/card.png);
+    position: relative;
+    left: 50%;
+    top: -35%;
+}
+
+.default-container-3 .card-list-mobile {
+    width: 496px;
+    height: 571px;
+    background: rgb(6, 11, 39);
+    background: radial-gradient(circle, rgba(6, 11, 39, 1) 0%, rgba(37, 20, 97, 1) 100%);
+    border: 1px solid #333039;
+    border-radius: 15px;
+}
+
+.default-container-3 .card-list-upload {
+    background: rgb(6, 11, 39);
+    background: radial-gradient(circle, rgba(6, 11, 39, 1) 0%, rgba(22, 3, 88, 1) 100%);
+    border: 1px solid #333039;
+    border-radius: 15px;
+    width: 690px;
+    height: 576px;
+}
