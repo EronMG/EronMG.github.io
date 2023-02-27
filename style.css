@@ -672,3 +672,172 @@ header {
 
 
 /*! END THIRD SECTION!!  */
+
+.fourth-section {
+    position: absolute;
+    width: 1920px;
+    height: 1043px;
+    top: 3463px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.default-container-4 {
+    position: absolute;
+    width: 1224px;
+    height: 903px;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    border: 1px solid #333039;
+    border-radius: 10px;
+    background: rgb(2, 4, 17);
+    background: radial-gradient(circle, rgb(4, 9, 35) 0%, rgb(17, 8, 56) 100%);
+}
+
+.default-container-4 .content {
+    width: 454px;
+    height: 261px;
+}
+
+.default-container-4 .content h2 {
+    background: linear-gradient(180deg, #F6F6F7 0%, #7E808F 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 48px;
+}
+
+.default-container-4 .content p {
+    color: white;
+    opacity: 0.5;
+    position: relative;
+    top: 20px;
+    width: 70%;
+}
+
+.default-container-4 .content button {
+    position: relative;
+    border-radius: 35px;
+    background: none;
+    border: 1px solid #333039;
+    color: White;
+    font-size: 14px;
+    width: 155px;
+    height: 45px;
+    text-align: center;
+    top: 40px;
+}
+
+.default-container-4 .pic {
+    border: 1px solid #333039;
+    width: 527px;
+    height: 200px;
+    position: relative;
+    left: 50px;
+    top: 50px;
+    border-radius: 0px 20px;
+    background: rgb(2, 4, 17);
+    background: radial-gradient(circle, rgb(4, 9, 35) 0%, rgb(17, 8, 56) 100%);
+}
+
+.default-container-4 .pic-border-1 {
+    position: relative;
+    top: -90px;
+    width: 430px;
+    height: 170px;
+    border: 1px solid #333039;
+    left: -1px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(2, 4, 17);
+    background: radial-gradient(circle, rgb(4, 9, 35) 0%, rgb(17, 8, 56) 100%);
+}
+
+.default-container-4 .pic-border-2 {
+    position: relative;
+    width: 430px;
+    height: 170px;
+    border: 1px solid #333039;
+    top: -70px;
+    border-radius: 15px;
+    left: 96px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(2, 4, 17);
+    background: radial-gradient(circle, rgb(4, 9, 35) 0%, rgb(17, 8, 56) 100%);
+}
+
+.default-container-4 .pic-1 {
+    width: 413px;
+    height: 150px;
+    background: url(pic/pic02.png);
+}
+
+.default-container-4 .pic-2 {
+    width: 413px;
+    height: 150px;
+    background: url(pic/pic01.png);
+}
+
+.default-container-4 h5 {
+    color: white;
+    font-size: 24px;
+    padding: 25px;
+}
+
+.default-container-4 .content-p {
+    color: white;
+    font-size: 16px;
+    opacity: 0.5;
+    width: 80%;
+    left: -20px;
+    position: relative;
+    padding-left: 25px;
+}
+
+.default-container-4 .content-p-1 {
+    color: white;
+    font-size: 16px;
+    opacity: 0.5;
+    width: 80%;
+    position: relative;
+    padding-left: 25px;
+}
+
+.default-container-4 .product-mail {
+    width: 540px;
+    height: 363px;
+    border: 1px solid #333039;
+    border-radius: 10px;
+}
+
+.default-container-4 .product-mail .product-pic-1 {
+    width: 417px;
+    height: 211px;
+    background: url(pic/productmail.png);
+    position: relative;
+    left: 61.5px;
+    top: 37.5px;
+}
+
+.default-container-4 .product-ui {
+    width: 547px;
+    height: 363px;
+    border: 1px solid #333039;
+    border-radius: 10px;
+}
+
+.default-container-4 .product-ui .product-pic-2 {
+    width: 487px;
+    height: 211px;
+    background: url(pic/productui.png);
+    position: relative;
+    left: 31.5px;
+    top: 37.5px;
+}
