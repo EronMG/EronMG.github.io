@@ -392,10 +392,13 @@ header {
 }
 
 
-/*?START FLEXBOX-CARD*/
+/*?END FLEXBOX-CARD*/
 
 
 /*! END  Second-section!!!! */
+
+
+/*! START THIRD SECTION!!  */
 
 .third-section {
     position: absolute;
@@ -500,6 +503,9 @@ header {
     position: relative;
     left: 10px;
 }
+
+
+/*?  START FLEXBOX-CARD  */
 
 .default-container-3 .card-list {
     position: absolute;
@@ -629,6 +635,9 @@ header {
     left: 50px;
 }
 
+
+/*?END FLEXBOX-CARD*/
+
 .default-container-3 .buttons {
     position: absolute;
     width: 354px;
@@ -660,3 +669,6 @@ header {
     height: 45px;
     text-align: center;
 }
+
+
+/*! END THIRD SECTION!!  */
