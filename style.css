@@ -528,7 +528,7 @@ header {
     left: 70px;
 }
 
-.default-container-3 .card .card-content h5 {
+.default-container-3 h5 {
     color: white;
     font-size: 32px;
 }
@@ -571,6 +571,30 @@ header {
     border-radius: 15px;
 }
 
+.default-container-3 .card-list-mobile .mobile-image {
+    position: relative;
+    top: 50px;
+    left: 112px;
+    width: 271px;
+    height: 306px;
+    background: url(pic/mobile.png);
+}
+
+.default-container-3 .card-list-mobile h5 {
+    position: relative;
+    left: 15%;
+    top: 15%;
+}
+
+.default-container-3 .card-list-mobile p {
+    width: 75%;
+    position: relative;
+    left: 15%;
+    top: 17.5%;
+    color: white;
+    opacity: 0.4;
+}
+
 .default-container-3 .card-list-upload {
     background: rgb(6, 11, 39);
     background: radial-gradient(circle, rgba(6, 11, 39, 1) 0%, rgba(22, 3, 88, 1) 100%);
@@ -578,4 +602,61 @@ header {
     border-radius: 15px;
     width: 690px;
     height: 576px;
+}
+
+.default-container-3 .card-list-upload h5 {
+    position: relative;
+    left: 10%;
+    top: 45px;
+}
+
+.default-container-3 .card-list-upload p {
+    position: relative;
+    left: 10%;
+    top: 65px;
+    width: 80%;
+    color: white;
+    opacity: 0.4;
+    font-size: 16px;
+}
+
+.default-container-3 .card-list-upload .upload-image {
+    position: relative;
+    background: url(pic/upload.png);
+    width: 580px;
+    height: 393px;
+    top: 110px;
+    left: 50px;
+}
+
+.default-container-3 .buttons {
+    position: absolute;
+    width: 354px;
+    height: 46px;
+    top: 1389px;
+    left: 435px;
+    display: flex;
+    gap: 30px;
+}
+
+.default-container-3 .buttons-button-1 {
+    border-radius: 35px;
+    background: #7214FF;
+    border: 0;
+    color: White;
+    font-size: 14px;
+    width: 145px;
+    height: 45px;
+    text-align: center;
+}
+
+.default-container-3 .buttons-button-2 {
+    border-radius: 35px;
+    background: none;
+    border: 1px solid #333039;
+    color: White;
+    font-size: 14px;
+    width: 155px;
+    height: 45px;
+    text-align: center;
 }
