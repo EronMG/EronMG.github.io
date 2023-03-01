@@ -1345,3 +1345,66 @@ footer {
     height: 24px;
     background: url(pic/ph_instagram-logo-fill.png);
 }
+
+.button-section {
+    position: absolute;
+    width: 1919px;
+    height: 199px;
+    left: 0px;
+    top: 7186px;
+    background: #0E1330;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-block {
+    position: absolute;
+    width: 497px;
+    height: 87px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.buttons-left {
+    width: 344px;
+    height: 87px;
+    border: 1px dashed #9747FF;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.buttons-left button {
+    position: relative;
+    width: 145px;
+    height: 45px;
+    border-radius: 35px;
+    border: 1px solid #333039;
+    background: none;
+    color: White;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.buttons-right {
+    width: 200px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.buttons-right button {
+    border-radius: 35px;
+    background: #7214FF;
+    border: 0;
+    color: White;
+    font-size: 14px;
+    width: 145px;
+    height: 45px;
+    text-align: center;
+}
