@@ -886,7 +886,7 @@ header {
 .default-container-6 .discord-pic {
     width: 65.38px;
     height: 50px;
-    background: url(pic/Logo.png);
+    background: url(pic/Logo1.png);
 }
 
 .default-container-6 h2 {
@@ -1134,4 +1134,214 @@ header {
     border: 0;
     color: White;
     font-size: 16px;
+}
+
+footer {
+    position: absolute;
+    width: 1920px;
+    height: 579px;
+    top: 6607px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-content {
+    position: absolute;
+    width: 1224px;
+    height: 439px;
+    border-bottom: 1px solid #333039;
+}
+
+.footer-product {
+    position: absolute;
+    width: 155px;
+    height: 38.38px;
+    background: url(pic/logo2.png);
+}
+
+.footer-frame {
+    position: absolute;
+    width: 393px;
+    height: 236px;
+    display: flex;
+    flex-flow: column;
+    gap: 25px;
+    border: 1px solid #333039;
+    border-radius: 15px;
+    justify-content: center;
+    align-items: center;
+    background: #0E1330;
+    top: 68px;
+}
+
+.footer-frame h2 {
+    font-size: 26px;
+    color: white;
+}
+
+.footer-frame input {
+    width: 333px;
+    height: 44px;
+    color: white;
+    background: #0E1330;
+    border-radius: 25px;
+    border: 1px solid #333039;
+    font-size: 20px;
+    opacity: 0.6;
+}
+
+.footer-frame button {
+    position: relative;
+    width: 330px;
+    height: 45px;
+    border-radius: 35px;
+    background: #7214FF;
+    border: 0;
+    color: White;
+    font-size: 16px;
+}
+
+.footer-subscribe {
+    width: 393px;
+    height: 305.38px;
+}
+
+.footer-content-mini {
+    position: absolute;
+    width: 725px;
+    height: 330px;
+    display: flex;
+    left: 500px;
+    top: -0px;
+    justify-content: space-between;
+}
+
+.footer-content-mini .box-1 {
+    width: 97px;
+    height: 330px;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+    color: white;
+    opacity: 0.6;
+}
+
+.footer-content-mini .box-2 {
+    justify-content: center;
+    width: 97px;
+    height: 330px;
+    display: flex;
+    flex-flow: column;
+    gap: 20px;
+    color: white;
+    opacity: 0.6;
+}
+
+.footer-content-mini .box-3 {
+    justify-content: space-around;
+    width: 144px;
+    height: 330px;
+    display: flex;
+    flex-flow: column;
+    gap: 20px;
+    color: white;
+    opacity: 0.6;
+}
+
+.footer-content-mini h3 {
+    font-size: 26px;
+}
+
+.footer-bottom-content {
+    position: absolute;
+    width: 1224px;
+    height: 64px;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-bottom-content .left-content-p {
+    color: rgba(255, 255, 255, 0.333);
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.left-content span {
+    color: rgb(255, 255, 255);
+    opacity: 1;
+}
+
+.footer-bottom-content .right-content {
+    width: 181px;
+    height: 34px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.right-content .box-1 {
+    width: 34px;
+    height: 34px;
+    border: 1px solid #333039;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.box-1-1 {
+    width: 24px;
+    height: 24px;
+    background: url(pic/ri_facebook-fill.png);
+}
+
+.right-content .box-2 {
+    width: 34px;
+    height: 34px;
+    border: 1px solid #333039;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.box-2-2 {
+    width: 24px;
+    height: 24px;
+    background: url(pic/mdi_twitter.png);
+}
+
+.right-content .box-3 {
+    width: 34px;
+    height: 34px;
+    border: 1px solid #333039;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.box-3-3 {
+    width: 24px;
+    height: 24px;
+    background: url(pic/ri_linkedin-fill.png);
+}
+
+.right-content .box-4 {
+    width: 34px;
+    height: 34px;
+    border: 1px solid #333039;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.box-4-4 {
+    width: 24px;
+    height: 24px;
+    background: url(pic/ph_instagram-logo-fill.png);
 }
