@@ -77,6 +77,9 @@ a {
     width: 100%;
     height: 793px;
     max-width: 1145px;
+    display: flex;
+    justify-content: space-between;
+    flex-flow: column;
 }
 
 .section__first-container-content {
@@ -148,4 +151,292 @@ a {
     border: 1.2px solid #282D45;
     border-radius: 46px;
     color: white;
+}
+
+.section__first-container-bottom {
+    height: 513px;
+    width: 100%;
+    max-width: 1145px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.section__first-container-bottom-image {
+    width: 100%;
+    max-width: 808px;
+    height: 513px;
+    background: url(pic/Hero\ image.png);
+}
+
+.section__second {
+    height: 854px;
+    width: 100%;
+    max-width: 1920px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section__second-container {
+    width: 100%;
+    height: 714px;
+    max-width: 1224px;
+    display: flex;
+    justify-content: space-between;
+    flex-flow: column;
+}
+
+.section__second-container-title {
+    width: 100%;
+    max-width: 1224px;
+    height: 128px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section__second-container-title h2 {
+    background: linear-gradient(180deg, #F6F6F7 0%, #7E808F 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 64px;
+}
+
+.section__second-container-title p {
+    font-size: 16px;
+    line-height: 24px;
+    color: #8F9BB7;
+    height: 50%;
+    width: 50%;
+}
+
+.section__second-container-flexbox {
+    width: 100%;
+    height: 526px;
+    max-width: 1227px;
+    display: flex;
+    flex-flow: wrap;
+    gap: 19px;
+}
+
+.section__second-container-flexbox h3 {
+    color: white;
+    font-size: 24px;
+}
+
+.section__second-container-flexbox p {
+    font-size: 16px;
+    color: #8F9BB7;
+    width: 300px;
+}
+
+.section__second-container-flexbox-1 {
+    width: 100%;
+    height: 251px;
+    max-width: 393px;
+    background: #0E1330;
+    border: 1px solid #282D45;
+    border-radius: 4px;
+    display: flex;
+    flex-flow: column;
+    gap: 30px;
+}
+
+.section__second-container-flexbox-1-icon-container {
+    width: 60px;
+    height: 55px;
+    padding-left: 25px;
+    padding-top: 25px;
+}
+
+.section__second-container-flexbox-1-icon {
+    width: 53.05px;
+    height: 45px;
+    background: url(pic/flexbox1.png);
+}
+
+.section__second-container-flexbox-1-title {
+    display: flex;
+    flex-flow: column;
+    gap: 12px;
+    height: 116px;
+    max-width: 323px;
+    padding-left: 25px;
+    padding-bottom: 25px;
+}
+
+.section__second-container-flexbox-2 {
+    width: 100%;
+    height: 251px;
+    max-width: 393px;
+    background: #0E1330;
+    border: 1px solid #282D45;
+    border-radius: 4px;
+    display: flex;
+    flex-flow: column;
+    gap: 30px;
+}
+
+.section__second-container-flexbox-2-icon-container {
+    width: 60px;
+    height: 55px;
+    padding-left: 25px;
+    padding-top: 25px;
+}
+
+.section__second-container-flexbox-2-icon {
+    width: 47.94px;
+    height: 45px;
+    background: url(pic/flexbox2.png);
+}
+
+.section__second-container-flexbox-2-title {
+    display: flex;
+    flex-flow: column;
+    gap: 12px;
+    height: 116px;
+    max-width: 323px;
+    padding-left: 25px;
+    padding-bottom: 25px;
+}
+
+.section__second-container-flexbox-3 {
+    width: 100%;
+    height: 251px;
+    max-width: 393px;
+    background: #0E1330;
+    border: 1px solid #282D45;
+    border-radius: 4px;
+    display: flex;
+    flex-flow: column;
+    gap: 30px;
+}
+
+.section__second-container-flexbox-3-icon-container {
+    width: 60px;
+    height: 55px;
+    padding-left: 25px;
+    padding-top: 25px;
+}
+
+.section__second-container-flexbox-3-icon {
+    width: 45px;
+    height: 45px;
+    background: url(pic/flexbox.png);
+}
+
+.section__second-container-flexbox-3-title {
+    display: flex;
+    flex-flow: column;
+    gap: 12px;
+    height: 116px;
+    max-width: 323px;
+    padding-left: 25px;
+    padding-bottom: 25px;
+}
+
+.section__second-container-flexbox-4 {
+    width: 100%;
+    height: 251px;
+    max-width: 393px;
+    background: #0E1330;
+    border: 1px solid #282D45;
+    border-radius: 4px;
+    display: flex;
+    flex-flow: column;
+    gap: 30px;
+}
+
+.section__second-container-flexbox-4-icon-container {
+    width: 60px;
+    height: 55px;
+    padding-left: 25px;
+    padding-top: 25px;
+}
+
+.section__second-container-flexbox-4-icon {
+    width: 34.29px;
+    height: 45px;
+    background: url(pic/flex1.png);
+}
+
+.section__second-container-flexbox-4-title {
+    display: flex;
+    flex-flow: column;
+    gap: 12px;
+    height: 116px;
+    max-width: 323px;
+    padding-left: 25px;
+    padding-bottom: 25px;
+}
+
+.section__second-container-flexbox-5 {
+    width: 100%;
+    height: 251px;
+    max-width: 393px;
+    background: #0E1330;
+    border: 1px solid #282D45;
+    border-radius: 4px;
+    display: flex;
+    flex-flow: column;
+    gap: 30px;
+}
+
+.section__second-container-flexbox-5-icon-container {
+    width: 60px;
+    height: 55px;
+    padding-left: 25px;
+    padding-top: 25px;
+}
+
+.section__second-container-flexbox-5-icon {
+    width: 45px;
+    height: 45px;
+    background: url(pic/flex2.png);
+}
+
+.section__second-container-flexbox-5-title {
+    display: flex;
+    flex-flow: column;
+    gap: 12px;
+    height: 116px;
+    max-width: 323px;
+    padding-left: 25px;
+    padding-bottom: 25px;
+}
+
+.section__second-container-flexbox-6 {
+    width: 100%;
+    height: 251px;
+    max-width: 393px;
+    background: #0E1330;
+    border: 1px solid #282D45;
+    border-radius: 4px;
+    display: flex;
+    flex-flow: column;
+    gap: 30px;
+}
+
+.section__second-container-flexbox-6-icon-container {
+    width: 60px;
+    height: 55px;
+    padding-left: 25px;
+    padding-top: 25px;
+}
+
+.section__second-container-flexbox-6-icon {
+    width: 47.26px;
+    height: 45px;
+    background: url(pic/flex3.png);
+}
+
+.section__second-container-flexbox-6-title {
+    display: flex;
+    flex-flow: column;
+    gap: 12px;
+    height: 116px;
+    max-width: 323px;
+    padding-left: 25px;
+    padding-bottom: 25px;
 }
