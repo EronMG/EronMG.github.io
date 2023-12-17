@@ -1,14 +1,15 @@
-import Hero from "./components/Hero";
-import HeroContainer from "./components/HeroContainer";
-import Nav from "./components/Nav";
+import MainScreen from "./components/MainScreen/MainScreen";
+import "./index.css";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 function App() {
   return (
-    <div>
-      <Nav />
-      <Hero>
-        <HeroContainer className={`px-[16px] py-[80px]`} />
-      </Hero>
+    <div className="flex flex-col max-w-[1440px]">
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<MainScreen />} />
+        </Routes>
+      </BrowserRouter>
     </div>
   );
 }
