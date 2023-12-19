@@ -4,6 +4,7 @@ import logo from "../assets/logo.svg";
 import burger from "../assets/button-icon-burger.svg";
 import Menu from "./Menu";
 import close from "../assets/close.svg";
+import { Link } from "react-router-dom";
 
 const Nav = () => {
   const [brg, setBurger] = useState(false);
@@ -14,7 +15,10 @@ const Nav = () => {
 
   return (
     <div className="px-[16px] flex h-[80px] items-center pt-[20px] justify-between sm:px-[40px]">
-      <img src={logo} alt="logo" />
+      <Link to={`/`}>
+        {" "}
+        <img src={logo} alt="logo" />
+      </Link>
       <NavLinks className={"md:flex gap-[40px] justify-center hidden"} />
       <Menu className={`md:flex gap-[8px] relative group hidden`} />
       <div className="md:hidden flex flex-1 justify-end items-center">

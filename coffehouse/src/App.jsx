@@ -1,3 +1,4 @@
+import CoffeMenu from "./components/CoffeMenu/CoffeMenu";
 import MainScreen from "./components/MainScreen/MainScreen";
 import "./index.css";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
@@ -8,6 +9,7 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<MainScreen />} />
+          <Route path="/menu" element={<CoffeMenu />} />
         </Routes>
       </BrowserRouter>
     </div>

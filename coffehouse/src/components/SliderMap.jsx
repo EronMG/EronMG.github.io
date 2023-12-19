@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import text from "../styles";
 import { slider } from "../constants";
 import { NextButton } from "./Buttons";
-
+import { IoIosArrowRoundForward } from "react-icons/io";
 const SliderMap = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
 
@@ -15,21 +15,8 @@ const SliderMap = () => {
 
   return (
     <div className="flex overflow-hidden items-center justify-center gap-[44px]">
-      <NextButton className="-rotate-180 rounded-full min-w-[60px] h-[60px]  justify-center items-center border-[1px] border-brdlight mb-[44px] hidden sm:flex">
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          width="24"
-          height="24"
-          viewBox="0 0 24 24"
-          fill="none"
-        >
-          <path
-            d="M6 12H18.5M18.5 12L12.5 6M18.5 12L12.5 18"
-            stroke="#403F3D"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-          />
-        </svg>
+      <NextButton className="-rotate-180 rounded-full min-w-[60px] h-[60px]  justify-center items-center border-[1px] border-brdlight mb-[44px] hidden sm:flex  transition duration-300 ease-in-out hover:bg-container hover:text-body">
+        <IoIosArrowRoundForward className="text-[24px]" />
       </NextButton>
       {slider.map((item, index) => (
         <div
@@ -72,21 +59,8 @@ const SliderMap = () => {
           </div>
         </div>
       ))}
-      <NextButton className="rounded-full min-w-[60px] h-[60px] justify-center items-center border-[1px] border-brdlight mb-[44px] hidden sm:flex">
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          width="24"
-          height="24"
-          viewBox="0 0 24 24"
-          fill="none"
-        >
-          <path
-            d="M6 12H18.5M18.5 12L12.5 6M18.5 12L12.5 18"
-            stroke="#403F3D"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-          />
-        </svg>
+      <NextButton className="rounded-full min-w-[60px] h-[60px] justify-center items-center border-[1px] border-brdlight mb-[44px] hidden sm:flex transition duration-300 ease-in-out hover:bg-container hover:text-body">
+        <IoIosArrowRoundForward className="text-[24px]" />
       </NextButton>
     </div>
   );

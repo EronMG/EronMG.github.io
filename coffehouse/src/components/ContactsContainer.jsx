@@ -24,9 +24,10 @@ const ContactsContainer = () => {
         <h2 className={`${text.heading3} text-light `}>Contact us</h2>
         <div className="flex flex-col gap-[20px]">
           {contact.map((item) => (
-            <div key={item.id} className="flex gap-[8px]">
+            <div key={item.id} className="flex gap-[8px] relative group w-fit">
               <img src={item.icon} alt="link" />
               <p className={`${text.link} text-light`}>{item.title}</p>
+              <span className="absolute bottom-[-4px] left-1/2 transform -translate-x-1/2 h-0.5 bg-body w-0 transition-all duration-500 group-hover:w-full"></span>
             </div>
           ))}
         </div>
